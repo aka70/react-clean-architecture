@@ -23,7 +23,7 @@ export interface AuthenticationService {
 }
 
 export interface NotificationService {
-  nofity(message: string): void
+  notify(message: string): void
 }
 
 export interface PaymentService {
