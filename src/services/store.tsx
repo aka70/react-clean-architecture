@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react'
 import { cookies } from './fakeData'
 
-const StoreContext = React.createContext({})
+const StoreContext = React.createContext<any>({})
 export const useStore = () => useContext(StoreContext)
 
 export const Provider: React.FC = ({ children }) => {
