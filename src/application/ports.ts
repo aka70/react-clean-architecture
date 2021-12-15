@@ -14,7 +14,7 @@ export interface CartStorageService {
 }
 
 export interface OrdersStorageService {
-  order: Order[]
+  orders: Order[]
   updateOrders(orders: Order[]): void
 }
 
